@@ -32,7 +32,7 @@ public class MouseClickGun extends Gun {
 				if (((MouseEvent) e).getButton() == MouseEvent.BUTTON3)
 					bot.bulletPower = 3;
 				else if (((MouseEvent) e).getButton() == MouseEvent.BUTTON2)
-					bot.bulletPower = 2;
+					bot.bulletPower = 3;
 				else
 					bot.bulletPower = 1;
 
